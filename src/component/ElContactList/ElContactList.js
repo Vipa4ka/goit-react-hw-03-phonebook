@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./ElContactList.module.scss";
+
 const ElContactList = ({ contact, onDeleteContacts }) => (
   <>
     <span className={styles.span}>
